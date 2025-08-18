@@ -12,7 +12,7 @@ import { AIAutomationTab } from "@/components/ai-automation-tab"
 import { NetworkIcon, Terminal, FileOutput, Download, Bot, Shield, Wifi } from "lucide-react"
 
 // Centralized authorization configuration
-const AUTHORIZED_IP_RANGES = ["10.19.10.0", "192.168.10.5/24", "39.46.240.230"]
+const AUTHORIZED_IP_RANGES = ["10.19.10.0", "192.168.10.5/24", "39.46.195.221"]
 
 export default function PCSIRNetworkTool() {
   const [userIP, setUserIP] = useState<string>("")
